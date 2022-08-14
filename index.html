@@ -8,8 +8,101 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <nav class="header-nav">
+            <a href="#" class="nav-logo">                
+                <div class="nav--logo-container">
+                    <h6>Blood</h6>
+                    <h6>Types</h6>
+                </div>
+            </a>
+            <ul class="nav--buttons-container">                
+                    <a href="index.html" class="nav-buttons home-button">
+                        Home
+                    </a>              
+                    <a href="index.html" class="nav-buttons contact-button">
+                        Contact
+                    </a>               
+                    <a href="index.html" class="nav-buttons projects-button">
+                        Projects
+                    </a>                
+            </ul>
+            <button class="sidebar-toggle">
+                <img src="assets/sidebar-icon.png" alt="" class="sidebar-img">
+            </button>
+        </nav>                
+        <aside class="sidebar">
+            <div class="aside-logo">
+                <button class="close-btn">
+                    <img src="assets/close_sidebar-icon.png" alt="" class="close-sidebar-img">
+                </button>                
+            </div>
+            <ul class="ul-fab">
+                <li class="li-fab">
+                    <a href="#" class="a-fab">
+                        <span class="fab fa-glassdoor">Glassdoor</span>
+                    </a>
+                </li>
+                <li class="li-fab">
+                    <a href="#" class="a-fab"> 
+                        <span class="fab fa-github">Github</span>
+                    </a>
+                </li>
+                <li class="li-fab">
+                    <a href="#" class="a-fab">
+                        <span class="fab fa-linkedin">Linkedin</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </header>
+    <main>
+        <section class="user-blood-selector">
+            <h3>Selecciona tu tipo de sangre</h3>
+            <input type="radio" name="blood-type" id="A+" />
+            <label for="blood-type" class="type-selector">A+</label>
+            <input type="radio" name="blood-type" id="A-" />
+            <label for="blood-type" class="type-selector">A-</label>
+            <input type="radio" name="blood-type" id="B+" />
+            <label for="blood-type" class="type-selector">B+</label>
+            <input type="radio" name="blood-type" id="B-" />
+            <label for="blood-type" class="type-selector">B-</label>
+            <input type="radio" name="blood-type" id="AB+" />
+            <label for="blood-type" class="type-selector">AB+</label>
+            <input type="radio" name="blood-type" id="AB-" />
+            <label for="blood-type" class="type-selector">AB-</label>
+            <input type="radio" name="blood-type" id="O+" />
+            <label for="blood-type" class="type-selector">O+</label>
+            <input type="radio" name="blood-type" id="O-" />
+            <label for="blood-type" class="type-selector">O-</label>
+        </section>
+        <section class="doner-user-section">
+            <h3>Quien te puede donar</h3>
+            <div class="common-div">
+                <div class="blood-type">A+</div>
+                <div class="blood-type">A-</div>
+                <div class="blood-type">B+</div>
+                <div class="blood-type">B-</div>
+                <div class="blood-type">AB+</div>
+                <div class="blood-type">AB-</div>
+                <div class="blood-type">O+</div>
+                <div class="blood-type">O-</div>
+            </div>
+        </section>
+        <section class="user-doner-section">
+            <h3>A quien le puedes donar</h3>
+            <div class="common-div">
+                <div class="blood-type">A+</div>
+                <div class="blood-type">A-</div>
+                <div class="blood-type">B+</div>
+                <div class="blood-type">B-</div>
+                <div class="blood-type">AB+</div>
+                <div class="blood-type">AB-</div>
+                <div class="blood-type">O+</div>
+                <div class="blood-type">O-</div>
+            </div>
+        </section>
+    </main>
     <script src="scripts.js"></script>
 </body>
 </html>
