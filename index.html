@@ -10,12 +10,15 @@
 <body>
     <header>
         <nav class="header-nav">
+            <!-- 
             <a href="#" class="nav-logo">                
                 <div class="nav--logo-container">
                     <h6>Blood</h6>
                     <h6>Types</h6>
                 </div>
-            </a>
+            </a> 
+            -->
+            <!-- 
             <ul class="nav--buttons-container">                
                     <a href="index.html" class="nav-buttons home-button">
                         Home
@@ -26,7 +29,8 @@
                     <a href="index.html" class="nav-buttons projects-button">
                         Projects
                     </a>                
-            </ul>
+            </ul> 
+            -->
             <button class="sidebar-toggle">
                 <img src="assets/sidebar-icon.png" alt="" class="sidebar-img">
             </button>
@@ -44,12 +48,12 @@
                     </a>
                 </li>
                 <li class="li-fab">
-                    <a href="#" class="a-fab"> 
+                    <a href="https://github.com/ackermanGitHub" class="a-fab"> 
                         <span class="fab fa-github">Github</span>
                     </a>
                 </li>
                 <li class="li-fab">
-                    <a href="#" class="a-fab">
+                    <a href="https://www.linkedin.com/in/julio-l%C3%B3pez-365904238/" class="a-fab">
                         <span class="fab fa-linkedin">Linkedin</span>
                     </a>
                 </li>
@@ -60,51 +64,62 @@
         <section class="section-blood-selector">
             <h3 class="blood-selector-tittle">Selecciona tu tipo de sangre</h3>
             <div class="blood-selector-container">
+
                 <input type="radio" name="blood-type" id="A+_selector" />
-                <label for="A+_selector" class="type-selector" id="A+_selector-id">A+</label>
+                <label for="A+_selector" class="type-selector" id="A+_selector-label">A+</label>
+
                 <input type="radio" name="blood-type" id="A-_selector" />
-                <label for="A-_selector" class="type-selector" id="A-_selector-id">A-</label>
+                <label for="A-_selector" class="type-selector" id="A-_selector-label">A-</label>
+
                 <input type="radio" name="blood-type" id="B+_selector" />
-                <label for="B+_selector" class="type-selector" id="B+_selector-id">B+</label>
+                <label for="B+_selector" class="type-selector" id="B+_selector-label">B+</label>
+
                 <input type="radio" name="blood-type" id="B-_selector" />
-                <label for="B-_selector" class="type-selector" id="B-_selector-id">B-</label>
+                <label for="B-_selector" class="type-selector" id="B-_selector-label">B-</label>
+
                 <input type="radio" name="blood-type" id="AB+_selector" />
-                <label for="AB+_selector" class="type-selector" id="AB+_selector-id">AB+</label>
+                <label for="AB+_selector" class="type-selector" id="AB+_selector-label">AB+</label>
+
                 <input type="radio" name="blood-type" id="AB-_selector" />
-                <label for="AB-_selector" class="type-selector" id="AB-_selector-id">AB-</label>
+                <label for="AB-_selector" class="type-selector" id="AB-_selector-label">AB-</label>
+
                 <input type="radio" name="blood-type" id="O+_selector" />
-                <label for="O+_selector" class="type-selector" id="O+_selector-id">O+</label>
+                <label for="O+_selector" class="type-selector" id="O+_selector-label">O+</label>
+
                 <input type="radio" name="blood-type" id="O-_selector" />
-                <label for="O-_selector" class="type-selector" id="O-_selector-id">O-</label>
+                <label for="O-_selector" class="type-selector" id="O-_selector-label">O-</label>
+
             </div>
         </section>
-        <section class="doner-user-section">
+        <section class="donors-user-section">
             <h3>Quien te puede donar</h3>
             <div class="common-div">
-                <div class="blood-type">A+</div>
-                <div class="blood-type">A-</div>
-                <div class="blood-type">B+</div>
-                <div class="blood-type">B-</div>
-                <div class="blood-type">AB+</div>
-                <div class="blood-type">AB-</div>
-                <div class="blood-type">O+</div>
-                <div class="blood-type">O-</div>
+                <div class="blood-type" id="A+_donors-id">A+</div>
+                <div class="blood-type" id="A-_donors-id">A-</div>
+                <div class="blood-type" id="B+_donors-id">B+</div>
+                <div class="blood-type" id="B-_donors-id">B-</div>
+                <div class="blood-type" id="AB+_donors-id">AB+</div>
+                <div class="blood-type" id="AB-_donors-id">AB-</div>
+                <div class="blood-type" id="O+_donors-id">O+</div>
+                <div class="blood-type" id="O-_donors-id">O-</div>
             </div>
         </section>
-        <section class="user-doner-section">
+        <section class="user-donors-section">
             <h3>A quien le puedes donar</h3>
             <div class="common-div">
-                <div class="blood-type">A+</div>
-                <div class="blood-type">A-</div>
-                <div class="blood-type">B+</div>
-                <div class="blood-type">B-</div>
-                <div class="blood-type">AB+</div>
-                <div class="blood-type">AB-</div>
-                <div class="blood-type">O+</div>
-                <div class="blood-type">O-</div>
+                <div class="blood-type" id="A+_reciever-id">A+</div>
+                <div class="blood-type" id="A-_reciever-id">A-</div>
+                <div class="blood-type" id="B+_reciever-id">B+</div>
+                <div class="blood-type" id="B-_reciever-id">B-</div>
+                <div class="blood-type" id="AB+_reciever-id">AB+</div>
+                <div class="blood-type" id="AB-_reciever-id">AB-</div>
+                <div class="blood-type" id="O+_reciever-id">O+</div>
+                <div class="blood-type" id="O-_reciever-id">O-</div>
             </div>
         </section>
     </main>
+    <footer>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
